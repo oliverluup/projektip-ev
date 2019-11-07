@@ -1,35 +1,33 @@
-function onYouTubeIframeAPIReady() {
-  player = new YT.Player("video-placeholder", {
-    width: 640,
-    height: 360,
-    videoId: "HdzI-191xhU",
-    events: {
-      onReady: initialize
-    }
+$(function() {
+  $(".video-player").click(function() {
+    $(".modal").addClass("open");
   });
-}
-function initialize() {}
 
-function deployVideo() {
-  jQuery(".mm-product-video-modal-container").addClass("open");
-  setTimeout(function() {
-    jQuery(".mm-product-video-modal").addClass("open");
-    player.playVideo();
-  }, 250);
-}
-
-function destroyVideo() {
-  jQuery(".mm-product-video-modal").removeClass("open");
-  setTimeout(function() {
-    jQuery(".mm-product-video-modal-container").removeClass("open");
-    player.pauseVideo();
-  }, 250);
-}
-
-jQuery(".mm-video-overlay").on("click", function() {
-  destroyVideo();
+  $(".modal").click(function() {
+    $(".modal").removeClass("open");
+  });
 });
 
-jQuery(".mm-launch").on("click", function() {
-  deployVideo();
+/*$(".video-player").click(function() {
+  $(".modal").addClass("open");
+
+
+
+
+
+$(".video-player").click(function() {
+  $(".modal").addClass("open");
 });
+
+
+$(function() {
+  $("#toggle").click(function() {
+    $(this).toggleClass("active");
+    $("#overlay").toggleClass("open");
+  });
+
+  $("#overlay .overlay-menu ul li a").click(function() {
+    $("#toggle").removeClass("active");
+    $("#overlay").removeClass("open");
+  });
+});*/
