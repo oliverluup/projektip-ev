@@ -96,6 +96,7 @@ header::after {
 .naitlejad-info-container {
   padding: 20px;
   display: flex;
+  justify-content: center;
   height: 100%;
   flex-direction: column;
 }
