@@ -66,6 +66,7 @@ header {
   background-color: #f1d3ae;
   position: relative;
   overflow: hidden;
+  overflow-x: hidden;
 }
 
 /* header::after {
