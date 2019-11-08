@@ -139,11 +139,11 @@ header::after {
   text-align: right;
   padding-right: 1.5rem;
   opacity: 0.7;
-  height: 100px;
+  height: 90px;
 }
 
 .info-wrapper .info-left .info-left-1 h3 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .info-wrapper .info-right {
@@ -156,7 +156,7 @@ header::after {
 .info-wrapper .info-right .info-right-1 {
   text-align: left;
   padding-left: 1.5rem;
-  height: 100px;
+  height: 90px;
 }
 
 .info-wrapper .info-right .info-right-1 .budget-heading {
@@ -164,7 +164,7 @@ header::after {
   letter-spacing: 0.06rem;
   color: #000;
   font-weight: 600;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 /* FACTS SECTION */
