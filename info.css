@@ -138,12 +138,12 @@ header::after {
 .info-wrapper .info-left .info-left-1 {
   text-align: right;
   padding-right: 1.5rem;
-  opacity: 0.6;
+  opacity: 0.7;
   height: 100px;
 }
 
 .info-wrapper .info-left .info-left-1 h3 {
-  font-size: 3.5rem;
+  font-size: 4rem;
 }
 
 .info-wrapper .info-right {
@@ -164,7 +164,7 @@ header::after {
   letter-spacing: 0.06rem;
   color: #000;
   font-weight: 600;
-  font-size: 3.5rem;
+  font-size: 4rem;
 }
 
 /* FACTS SECTION */
