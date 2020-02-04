@@ -14,4 +14,4 @@
 
 ## Live Site
 
-[FullMetaJacket](https://kind-tereshkova-2a01f6.netlify.com)
+[Full-Metal-Jacket](https://kind-tereshkova-2a01f6.netlify.com)
